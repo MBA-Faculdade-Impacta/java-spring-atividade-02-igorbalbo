@@ -13,3 +13,14 @@ public class JavaSpringTemplateApplication {
 	}
 
 }
+//palavra Hello world concatenada com o nome.
+		//Exmeplo de resposta: Hello world felipe !
+
+    String correto = "Hello world " + nome + "!";
+
+		return ResponseEntity.ok(correto);
+    String correto = "Hello world " + nome + " !";
+				return ResponseEntity.ok(correto);
+	}
+
+}
